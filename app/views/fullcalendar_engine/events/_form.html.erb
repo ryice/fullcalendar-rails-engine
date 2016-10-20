@@ -15,13 +15,25 @@
   <%=f.datetime_select :starttime %>
 </p>
 <p>
-  <%=f.label :endtime, 'EndLime' %>
+  <%=f.label :endtime, 'End Time' %>
   <br/>
   <%=f.datetime_select :endtime %>
 </p>
 <p>
-  <%=f.label :all_day %>
-  <%=f.check_box :all_day %>
+  <%=f.label :Sunday %>
+  <%=f.check_box :sunday %>
+  <%=f.label :Monday %>
+  <%=f.check_box :monday %>
+  <%=f.label :Tuesday %>
+  <%=f.check_box :tuesday %>
+  <%=f.label :Wednesday %>
+  <%=f.check_box :wednesday %>
+  <%=f.label :Thursday %>
+  <%=f.check_box :thursday %>
+  <%=f.label :Friday %>
+  <%=f.check_box :friday %>
+  <%=f.label :Saturday %>
+  <%=f.check_box :saturday %>
 </p>
 <p>
   <%=f.label :period, "Repeats" %>
